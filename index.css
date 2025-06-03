@@ -107,6 +107,7 @@
     grid-template-columns: auto auto auto;
     gap: 30px;
     margin: 20px;
+    margin-bottom: 0px;
 }
 .grid-single-item
 {
@@ -145,29 +146,198 @@
     font-size: 15px;
     text-align: center;
 }
-.grid-container1
+
+.img
+{
+ 
+ height: 100px;
+ width: 100px;
+}
+.summer-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+
+     
+}
+.summer-precaution
+{
+    padding: 20px;
+    background-color: #5db586;
+    border-radius: 70%;
+    background-image: url(./image/nature.jpg);
+}
+/* winter */
+.Winter-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px 100px;
+    padding: 20px;
+    text-align: center;
+
+     
+}
+.global-section1
+{
+    background-color: #f8c291;
+}
+.Winter-precaution
+{
+    padding: 20px;
+    background-color: #2fb2c9;
+    border-radius: 5%;
+    background-image: url(./image/winter.jpg);
+}
+.global-section2
+{
+    background-color: #f3b3bd;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 20px;
+    text-align: center;
+    height: 300px;
+}
+
+/* monsoon */
+
+.global-section3
+{
+    background-color: #f8c291;
+    
+}
+.global-heading1
+{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(154, 39, 154);
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.img
+{
+ 
+ height: 100px;
+ width: 100px;
+}
+.Monsoon-tratement-precaution
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+
+     
+}
+.Monsoon-precaution
+{
+    padding: 20px;
+    background-color: #2fb2c9;
+    border-radius: 5%;
+    background-image: url(./image/winter.jpg);
+}
+.heading-monsoon
+{
+    color: #3f12d3;
+    text-align: center;
+}
+
+/* food habits */
+
+.global-section4
+{
+    background-color: #f3b3bd;
+}
+.global-heading
+{
+    font-size: 30px;
+    text-align: center;
+}
+.global-heading-p
+{
+    font-size: 15px;
+    text-align: center;
+}
+.grid-container4
 {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 30px;
     margin: 20px;
+    margin-bottom: 0px;
 }
-.grid-single-item1
+
+
+.grid-single-item4
 {
-    background-color: #bbb3a4;
+    /* background-color: #f3a683; */
+    background-color: #a8fce0;
     padding: 50px;
     text-align: center;
     margin-bottom: 30px;
 }
-.grid-single-item1 img
+.grid-single-item4 img
 {
     /* margin-bottom: 15px; */
     height: 150px;
     width: 200px;
 
 }
-.grid-single-item1 p
+.grid-single-item4 p
 {
-    color: #227822;
+    color: #090a09;
    
+}
+/* contact us */
+
+.contact-heading
+
+{
+    font-size: 55px;
+    text-align: center;
+
+}
+form
+{
+    margin-left:590px ;
+    padding: 30px;
+    
+}
+form input{
+
+    width: 252px;
+}
+.submit-btn
+{
+    width: 150px;
+    height: 25px;
+    color: rgb(226, 224, 224);
+    background-color: black;
+    margin-left: 30px;
+    padding-bottom: 20px;
+
+}
+
+/* footer */
+.footer
+{
+    padding-top: 50px;
+    background-color: #2467f7;
+    color: aliceblue;
+    height: 100px;
+    text-align: center;
 }
